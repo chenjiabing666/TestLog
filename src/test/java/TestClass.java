@@ -10,6 +10,7 @@ public class TestClass {
 		Person person=context.getBean("person",Person.class);
 		System.out.println(person);
 		System.out.println("cd");
+		System.out.println();
 		context.close();
 		
 	}
