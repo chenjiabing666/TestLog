@@ -9,6 +9,8 @@ public class TestClass {
 		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("spring-test.xml");
 		Person person=context.getBean("person",Person.class);
 		System.out.println(person);
+		System.out.println("cd");
 		context.close();
+		
 	}
 }
